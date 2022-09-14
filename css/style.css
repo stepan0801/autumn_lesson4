@@ -1,0 +1,220 @@
+@import "reset.css";
+
+/* ====================Підключення шрифтів============== */
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/larsseit/Larsseit.woff2") format("woff2"), url("../fonts/larsseit/Larsseit.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/larsseit/Larsseit-Medium.woff2") format("woff2"), url("../fonts/larsseit/Larsseit-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/larsseit/Larsseit-Bold.woff2") format("woff2"), url("../fonts/larsseit/Larsseit-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato/Lato-Medium.woff2") format("woff2"), url("../fonts/lato/Lato-Medium.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato/Lato-Bold.woff2") format("woff2"), url("../fonts/lato/Lato-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato/Lato-Black.woff2") format("woff2"), url("../fonts/lato/Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+/* =============Стилі Хедер============== */
+body{margin: 10px;}
+div {
+	color: lawngreen;
+	
+}
+h1{
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	
+}
+
+.top~div {
+	color: violet;
+}
+
+p a {
+	color: brown;
+}
+
+.first-top+div {font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	color: aqua;
+}
+
+/* =============Стилі Мейн============== */
+/* =============Стилі tittle============== */
+.tittle {
+	color: green;
+}
+
+/* =============Стилі about-list============== */
+.about-list {font-family: "Larsseit", sans-serif;
+	font-weight: 700;
+	color: saddlebrown;
+}
+
+ol>li {
+	color: black;
+}
+
+.trophy+li~li {
+	color: hotpink;
+}
+
+/* =============Стилі about-history============== */
+.history div {font-family: "Lato", sans-serif;
+	font-weight: 700;
+	color: blue;
+}
+
+h3 {font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	color: violet;
+}
+
+.then p {font-family: "Larsseit", sans-serif;
+	font-weight: 500;
+	color: brown;
+}
+
+.then+div+div {
+	color: olive;
+}
+
+.moment>p span+span {font-family: "Lato", sans-serif;
+	font-weight: 900;
+	color: chocolate;
+}
+
+.another+div {font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: red;
+}
+
+.debute p+p {font-family: "Lato", sans-serif;
+	font-weight: 400;
+	color: goldenrod;
+}
+
+div.another {font-family: "Larsseit", sans-serif;
+	font-weight: 400;
+	color: palevioletred;
+}
+
+/* =============Стилі reglament============== */
+.tournament-reglamet>p {font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	color: aqua;
+}
+
+.about-tournament-reglamet>div p {font-family: "Larsseit", sans-serif;
+	font-weight: 700;
+	color: purple;
+}
+
+.about-tournament-reglamet h4 {font-family: "Lato", sans-serif;
+	font-weight: 900;
+	color: darkblue;
+}
+
+#group~p {font-family: "Larsseit", sans-serif;
+	font-weight: 400;
+	color: greenyellow;
+}
+
+.group+div p {font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	color: rgb(235, 91, 91);
+}
+
+.about-tournament-reglamet>div.qualification p {font-family: "Lato", sans-serif;
+	font-weight: 700;
+	color: black;
+}
+
+#play-off {font-family: "Larsseit", sans-serif;
+	font-weight: 500;
+	color: rebeccapurple;
+}
+
+/* =============Стилі ua-clubs============== */
+div.ua-clubs div {font-family: "Lato", sans-serif;
+	font-weight: 400;
+	color: olivedrab;
+}
+
+#ua-clubs {
+	color: pink;
+}
+
+.independence>div p {font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	color: red;
+}
+
+div.middle+div p {
+	color: grey;
+}
+
+.independence div h5 {font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	color: brown;
+}
+
+#last+p~p {
+	color: green;
+}
+
+/* =============Стилі cup============== */
+.cup h3 {
+	color: rgb(12, 114, 109);
+}
+
+.cup img+p {font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: violet;
+}
+
+.cup p {
+	color: blue;
+}
+
+/* =============Стилі hymn============== */
+.hymn p {
+	color: goldenrod;
+}
+
+.text a {
+	color: hotpink;
+}
+.foot{font-family: "Lato", sans-serif;
+	font-weight: 900;
+	color: red;
+}
